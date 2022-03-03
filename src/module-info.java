@@ -1,7 +1,5 @@
 import java.util.Scanner;
-public class Calculate 
-
-{
+public class Calculate {
     public static void main(String[] args) 
     {
         int m, n, opt, add, sub, mul;
@@ -25,25 +23,20 @@ public class Calculate
                 add = m + n;
                 System.out.println("Result:"+add);
                 break;
-
                 case 2:
                 sub = m - n;
                 System.out.println("Result:"+sub);
                 break;
-
                 case 3:
                 mul = m * n;
                 System.out.println("Result:"+mul);
                 break;
-
                 case 4:
                 div = (double)m / n;
                 System.out.println("Result:"+div);
                 break;    
- 
                 case 5:
                 System.exit(0);
-                
                 default:
                     System.out.println("Invalid operator!");
                     break;
